@@ -3,6 +3,8 @@ html {scroll-behavior: smooth}
     margin-left: 30px;
     margin-right: 20px;
     align-items: start;
+    margin-bottom: 60px;
+    font-family: "Times New Roman";
 }
 
 #mainTitle {
@@ -12,6 +14,9 @@ html {scroll-behavior: smooth}
 
 #title2 {
     font-size: 16px;
+}
+#title3 {
+    font-size: 18px;
 }
 
 #intro {
@@ -55,6 +60,9 @@ html {scroll-behavior: smooth}
     display: flex;
     justify-content: space-around;
 }
+.movieBlock:hover {
+    transform: scale(1.2);
+}
 
 .pic {
     display: flex;
@@ -64,6 +72,11 @@ html {scroll-behavior: smooth}
 .description {
     display: flex;
     justify-content: center;
+}
+#famostMoviesList {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 18px;
 }
 
 .title {
@@ -75,5 +88,6 @@ html {scroll-behavior: smooth}
     font-size: 25px;
     display: flex ;
     justify-content: center;
+    margin-top: 20px;
 }
 
