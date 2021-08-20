@@ -3,12 +3,16 @@
     justify-content: center;
 }
 
+#justtyfi {
+    display: flex;
+    justify-content: space-between;
+}
+
 #mainBackground {
     background: silver;
     width: 900px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .box {
