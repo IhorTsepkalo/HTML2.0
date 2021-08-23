@@ -57,6 +57,61 @@ nav {
     height: 60px;
 }
 
-.nav_butt_hover:hover {
+.butt_hover:hover {
     transform: scale(1.3);
 }
+
+.main_screen {
+    padding: 95px 100px 95px 230px;
+}
+
+#main_screen__left {
+    width: 40%;
+}
+
+#main_screen__left h3 {
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: bold;
+    color: #FF9638;
+    margin-bottom: 50px;
+}
+
+#main_screen__left h1 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+#main_screen__left h1 span {
+    color: #3298F2;
+}
+
+#main_page_text {
+    font-size: 28px;
+    margin-bottom: 50px;
+}
+
+.bold_text {
+    font-weight: bold;
+}
+
+#test_button {
+    width: 300px;
+    height: 60px;
+    background-color: #FF9638;
+    border-radius: 5px;
+    border: #FF9638;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+#test_button:hover {
+    transform: scale(1.3);
+}
+
+
+
+
