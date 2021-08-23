@@ -1,0 +1,62 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+    height: 92px;
+    background-color: #F9F9F9;
+    border-bottom: #3298F2 1px solid;
+}
+
+#nav_logo {
+    display: flex;
+    align-items: center;
+    margin-left: 5%;
+    width: 250px;
+    height: 75px;
+}
+
+#nav_menu {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    gap: 50px;
+    flex-grow: 1;
+    margin-left: 100px;
+}
+
+.nav_item a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+#nav_butt {
+    margin-right: 5%;
+}
+
+#nav_butt a button {
+    width: 310px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    color: #3298F2;
+    background-color: #F9F9F9;
+    border: #3298F2 2px solid;
+    border-radius: 5px;
+    height: 60px;
+}
+
+.nav_butt_hover:hover {
+    transform: scale(1.3);
+}
