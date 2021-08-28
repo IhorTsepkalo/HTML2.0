@@ -134,6 +134,11 @@ h1, h2, h3, h4, h5 {
     width: 1457px;
 }
 
+.mainContent_contentWrap {
+    display: flex;
+    justify-content: space-between;
+}
+
 .mainContentPage1_subtitle {
     display: flex;
     justify-content: flex-start;
@@ -199,4 +204,29 @@ h1, h2, h3, h4, h5 {
 .mainContentPage1_button:hover {
     background: #23b0f8;
     transition: color .1s linear;
+}
+
+/*Page1_rightSideImage*/
+
+.rightSideImgWrap {
+    position: absolute;
+    z-index: 3;
+    top: 300px;
+    left: 1200px;
+}
+
+.rightSideImg__backgrond {
+    height: 400px;
+    width: 320px;
+    background: #0297F1;
+    border-radius: 15px;
+}
+
+.rightSideImg__image img {
+    width: 350px;
+    height: 450px;
+    position: absolute;
+    z-index: 4;
+    top: -70px;
+    left: -50px;
 }
