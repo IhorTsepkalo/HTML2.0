@@ -155,9 +155,9 @@ h1, h2, h3, h4, h5 {
     margin: 30px 0 0 150px;
     height: 22px;
     position: absolute;
-    top: 160px;
-    left: 232px;
-    z-index: 3;
+    top: 10px;
+    left: 10px;
+    z-index: 2;
     color: #FFFFFF;
     font-size: 18px;
     line-height: 22px;
@@ -542,12 +542,12 @@ h1, h2, h3, h4, h5 {
 .prices_item:hover {
     background: #13284F;
     transform: scale(1.03);
-    transition: color 0.1s linear;
+    transition: color 2s linear;
 }
 
 .prices_item:hover .item_header {
     color: #FFFFFF;
-    transition: color 0.1s linear;
+    transition: color 0.2s linear;
 }
 
 .prices_item:hover .item__text {
@@ -615,7 +615,6 @@ h1, h2, h3, h4, h5 {
     border: 1px solid #0297F1;
     box-sizing: border-box;
     border-radius: 10px;
-
     font-size: 19px;
     line-height: 22px;
     font-weight: 500;
@@ -625,7 +624,92 @@ h1, h2, h3, h4, h5 {
     color: #0297F1;
 }
 
+.item_button a {
+    text-decoration: none;
+    color: #0297F1;
+}
+
 .item_button:hover {
     transform: scale(1.1);
-    transition: linear 1.2s;
+    transition: linear 0.2s;
+}
+
+.prices_item:hover a {
+    transform: scale(1.1);
+    transition: linear 0.2s;
+    color: #F9F9F9;
+}
+
+/*Page4_advantages*/
+
+.page4_background {
+    margin: 90px 0 0;
+    position: relative;
+}
+
+.page4_background img {
+    width: 1457px;
+    max-width: 1457px;
+    display: flex;
+    justify-content: center;
+}
+
+.page4_wrap {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 3;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.page4_header {
+    width: 100%;
+    margin: 30px 0 0;
+    height: 48px;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.page4_contentBox {
+    flex-wrap: wrap;
+}
+
+.page4_contentItem {
+    display: flex;
+    justify-content: space-between;
+    margin: 55px 0 70px 0;
+    width: 295px;
+}
+
+.contentItem__symbol img {
+    width: 40px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 2px 30px 2px 2px;
+}
+
+.contentItem__textBox {
+    width: 255px;
+    height: 110px;
+}
+
+.contentItem__textHeader {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #FFFFFF;
+    margin: 0 0 7px 0;
+}
+.contentItem__text {
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+
 }
