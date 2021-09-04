@@ -59,11 +59,14 @@ h1, h2, h3, h4, h5 {
 }
 
 .logo {
-    width: 80px;
-    height: 60px;
     margin: 5px 0 0 0;
     display: flex;
     justify-content: center;
+}
+
+.logo img {
+    width: 80px;
+    height: 60px;
 }
 
 .workHours {
@@ -338,7 +341,7 @@ h1, h2, h3, h4, h5 {
 .descriptionHeader {
     max-width: 870px;
     height: 94px;
-    margin-top: 40px;
+    margin-top: 20px;
     font-weight: 600;
     font-size: 38px;
     line-height: 47px;
@@ -707,9 +710,174 @@ h1, h2, h3, h4, h5 {
     color: #FFFFFF;
     margin: 0 0 7px 0;
 }
+
 .contentItem__text {
     font-size: 14px;
     line-height: 17px;
     color: #FFFFFF;
 
+}
+
+
+/*page 5 application form*/
+
+.page5Block {
+    height: 565px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 90px;
+    background: #F9F9F9;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #a7a6a6;
+}
+
+.page5_mainHeader {
+    margin-top: 45px;
+    font-weight: 530;
+    font-size: 38px;
+    line-height: 47px;
+    text-align: center;
+    color: #0297F1;
+}
+
+.page5_contentBox {
+    margin: 45px 65px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.leftContentSide {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 0;
+    width: 700px;
+}
+
+.contentHeader_main {
+    width: 590px;
+    height: 25px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    color: #13284F;
+    margin: 0;
+}
+
+.contentHeader_secondary {
+    width: 165px;
+    height: 25px;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    color: #EF8711;
+    margin: 8px 0 0;
+}
+
+.page5_content {
+    width: 100%;
+    flex-direction: column;
+    margin: 47px 0 0;
+}
+
+.contentItem {
+    width: 100%;
+    display: flex;
+    height: 24px;
+    margin: 0 0 35px 0;
+}
+
+.contentIcon {
+    width: 20%;
+    margin: 0;
+}
+
+.contentIcon img {
+    display: flex;
+    justify-content: flex-end;
+    width: 24px;
+    height: 24px;
+}
+
+.contentText {
+    margin-left: 15px;
+    width: 80%;
+    font-size: 18px;
+    line-height: 22px;
+    color: #13284F;
+}
+
+/*page 5 application form__inputForm*/
+
+.inputFormBox {
+    width: 315px;
+    height: 405px;
+    border: 1px solid #D8D8D8;
+    border-radius: 15px;
+    flex-direction: column;
+    margin-left: 7px;
+}
+
+.inputFormBox__header {
+    width: 100%;
+    height: 29px;
+    margin: 20px 0;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.3;
+    color: #0297F1;
+}
+
+.inputFormBox__inputForms {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+}
+
+.inputForm {
+    position: relative;
+}
+
+.inputForm input {
+    position: relative;
+    margin-bottom: 20px;
+    width: 255px;
+    height: 40px;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    background: #F9F9F9;
+}
+
+.inputWindowName {
+    width: fit-content;
+    height: 16px;
+    padding: 0 3px;
+    background: #F9F9F9;
+    font-size: 12px;
+    line-height: 1.1;
+    color: #FF9638;
+    position: absolute;
+    z-index: 1;
+    top: -6px;
+    left: 8px;
+}
+
+.inputAproveButtone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 255px;
+    height: 45px;
+    background: #0297F1;
+    border-radius: 10px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.inputAproveButtone:hover {
+    background: #23b0f8;
+    transition: color .1s linear;
 }
