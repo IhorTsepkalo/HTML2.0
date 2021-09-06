@@ -728,6 +728,7 @@ h1, h2, h3, h4, h5 {
     justify-content: center;
     flex-direction: column;
     margin-top: 90px;
+    margin-bottom: 90px;
     background: #F9F9F9;
     border-radius: 15px;
     box-shadow: 0 0 10px #a7a6a6;
