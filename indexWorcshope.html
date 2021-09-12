@@ -2,11 +2,12 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <title>WorcShop</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="cssFiles/styleWorcshop.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap" rel="stylesheet">
+        <title>WorcShop</title>
     </head>
     <body>
 
@@ -17,439 +18,475 @@
 
 
                 <!--            ===HeaderPage1===-->
-                <div class="header">
-                    <div class="callNum">
-                        <div class="callNumText">Вам передзвонити?</div>
-                        <div class="callNumNum">+380989664567</div>
+                <header id="header_wrap">
+                    <div class="header">
+                        <div class="callNum">
+                            <div class="callNumText">Вам передзвонити?</div>
+                            <div class="callNumNum">+380989664567</div>
+                        </div>
+                        <div class="logo">
+                            <img src="images/worcshop/logo.png" alt="logo">
+                        </div>
+                        <div class="workHours">
+                            <div class="workHoursText">Графік роботи</div>
+                            <div class="workHoursSchedule">Пн-Пт 09:00-18:00</div>
+                        </div>
                     </div>
-                    <div class="logo">
-                        <img src="images/worcshop/logo.png" alt="logo">
-                    </div>
-                    <div class="workHours">
-                        <div class="workHoursText">Графік роботи</div>
-                        <div class="workHoursSchedule">Пн-Пт 09:00-18:00</div>
-                    </div>
-                </div>
 
-                <nav class="nav">
-                    <div class="nav_item"><a href="">Газ</a></div>
-                    <div class="nav_item"><a href="">Газопостачання</a></div>
-                    <div class="nav_item"><a href="">Обладнання</a></div>
-                    <div class="nav_item"><a href="">Карта АЗС</a></div>
-                    <div class="nav_item"><a href="">Компанія</a></div>
-                    <div class="nav_item"><a href="">Талони</a></div>
-                    <div class="nav_item"><a href="">Корисно</a></div>
-                    <div class="nav_item"><a href="">Контакти</a></div>
-                </nav>
+                    <nav class="nav container">
+                        <div class="nav_item"><a href="">Газ</a></div>
+                        <div class="nav_item"><a href="">Газопостачання</a></div>
+                        <div class="nav_item"><a href="">Обладнання</a></div>
+                        <div class="nav_item"><a href="">Карта АЗС</a></div>
+                        <div class="nav_item"><a href="">Компанія</a></div>
+                        <div class="nav_item"><a href="">Талони</a></div>
+                        <div class="nav_item"><a href="">Корисно</a></div>
+                        <div class="nav_item"><a href="">Контакти</a></div>
+                    </nav>
+
+                    <div class="burger_wrap">
+                        <div class="burger">
+                            <div class="burger_top-bottom"></div>
+                            <div class="burger_top-bottom"></div>
+                            <div class="burger_top-bottom"></div>
+                        </div>
+                    </div>
+                </header>
 
 
                 <!--            ===ContentPage1===-->
-                <div class="mainContentPage1">
-                    <div class="mainContent_backgroudPic">
-                        <img src="images/worcshop/backgroundTop.png" alt="">
-                    </div>
-                    <div class="mainContent_backgroud">
-                        <img src="images/worcshop/background.png" alt="">
-                    </div>
+                <main id="mainContent">
+                    <div class="mainContentPage1">
+                        <div class="mainContent_backgroudPic">
+                            <img src="images/worcshop/backgroundTop.png" alt="">
+                        </div>
+                        <div class="mainContent_backgroud">
+                            <img src="images/worcshop/background.png" alt="">
+                        </div>
 
-                    <div class="mainContentPage1_subtitle">
-                        <div class="mainContentPage1__text1">Головна</div>
-                        <div class="mainContentPage1__vektorImage"><img src="images/worcshop/vector%203.png" alt=""></div>
-                        <div class="mainContentPage1__text2">Газопостачання</div>
-                        <div class="mainContentPage1__vektorImage"><img src="images/worcshop/vector%203.png" alt=""></div>
-                    </div>
+                        <div class="mainContentPage1_subtitle">
+                            <div class="mainContentPage1__text1">Головна</div>
+                            <div class="mainContentPage1__vektorImage"><img src="images/worcshop/vector%203.png" alt=""></div>
+                            <div class="mainContentPage1__text2">Газопостачання</div>
+                            <div class="mainContentPage1__vektorImage"><img src="images/worcshop/vector%203.png" alt=""></div>
+                        </div>
 
-                    <div class="mainContent_contentWrap">
-                        <div class="mainContentPage1_leftContentSideWrap">
-                            <div class="mainContentPage1_textContent">
-                                <div class="mainContentPage1_textContent1">
-                                    <div>Автономна газифікація під ключ</div>
-                                    <div>Гарантія 3 роки</div>
+                        <div class="mainContent_contentWrap">
+                            <div class="mainContentPage1_leftContentSideWrap">
+                                <div class="mainContentPage1_textContent">
+                                    <div class="mainContentPage1_textContent1">
+                                        <div>Автономна газифікація під ключ</div>
+                                        <div>Гарантія 3 роки</div>
+                                    </div>
+                                    <div class="mainContentPage1_textContent2">Пройди тест і отримай розрахунок вартості підключення для твого обєкту</div>
+                                    <button class="mainContentPage1_button">Розрахувати</button>
                                 </div>
-                                <div class="mainContentPage1_textContent2">Пройди тест і отримай розрахунок вартості підключення для твого обєкту</div>
-                                <button class="mainContentPage1_button">Розрахувати</button>
+                            </div>
+                            <div class="rightSideImgWrap">
+                                <div class="rightSideImg__backgrond">
+                                    <div class="rightSideImg__image">
+                                        <img src="images/worcshop/Rectangle%201.png" alt="">
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        <div class="rightSideImgWrap">
-                            <div class="rightSideImg__backgrond">
-                                <div class="rightSideImg__image">
-                                    <img src="images/worcshop/Rectangle%201.png" alt="">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
 
-                    <!--            ======== page 2 directions======-->
-                    <div class="page2 mainPage">
-                        <div class="page2_header container">Наші напрямки</div>
-                        <div class="container">
-                            <div class="directions_item">
-                                <div class="directions_image">
-                                    <img src="images/worcshop/directions1.png" alt="">
-                                </div>
-                                <div class="directions_text">Газопостачання будинків</div>
-                            </div>
-                            <div class="directions_item">
-                                <div class="directions_image">
-                                    <img src="images/worcshop/directions2.png" alt="">
-                                </div>
-                                <div class="directions_text">Газопостачання квартир</div>
-                            </div>
-                            <div class="directions_item">
-                                <div class="directions_image">
-                                    <img src="images/worcshop/directions3.png" alt="">
-                                </div>
-                                <div class="directions_text">Газопостачання промислове</div>
-                            </div>
-                        </div>
-                    </div><!-- /page 2 directions-->
-
-                    <!--            ======== page 2 description======-->
-                    <div class="page2_wrap">
-                        <img src="images/worcshop/spotsBackground.png" alt="">
-                        <div class="page2_description container">
-                            <div class="descriptionHeader">
-                                Ми пропонуємо котли власного виробництва з <span class="textAkcent">гарантією 30 років</span>
-                            </div>
-                            <div class="descriptionContent">
-                                <div class="description__image">
-                                    <img src="images/worcshop/gazContainer.png" alt="">
-                                    <div class="imgPointer1 pointer"></div>
-                                    <div class="imgPointer2 pointer"></div>
-                                    <div class="imgPointer3 pointer"></div>
-                                    <div class="imgPointer4 pointer"></div>
-                                    <div class="imgVector1">
-                                        <img src="images/worcshop/Vector%205.png" alt="">
-                                    </div>
-                                    <div class="imgVector2">
-                                        <img src="images/worcshop/Vector%205.png" alt="">
-                                    </div>
-                                    <div class="imgVector3">
-                                        <img src="images/worcshop/Vector%205.png" alt="">
-                                    </div>
-                                    <div class="imgVector4">
-                                        <img src="images/worcshop/Vector%205.png" alt="">
-                                    </div>
-                                    <div class="bigPointer5 bigPointerB"></div>
-                                    <div class="bigPointer6 bigPointerB"></div>
-                                    <div class="bigPointer7 bigPointerB"></div>
-                                    <div class="bigPointer8 bigPointerB"></div>
-                                    <div class="bigPointer1 bigPointerW"></div>
-                                    <div class="bigPointer2 bigPointerW"></div>
-                                    <div class="bigPointer3 bigPointerW"></div>
-                                    <div class="bigPointer4 bigPointerW"></div>
-
-                                    <div class="description_text1 description_container">
-                                        <div class="description__header">
-                                            Грунтові води не страшні
-                                        </div>
-                                        <div class="description__text">
-                                            Для сохранения редуктора и других приборов от грунтовых вод делаем высокую трубу
-                                        </div>
-                                    </div>
-                                    <div class="description_text2 description_container">
-                                        <div class="description__header">
-                                            Не ржавіє
-                                        </div>
-                                        <div class="description__text">
-                                            Используем честные 6 мм толщины стали марки 09Г2С
-                                        </div>
-                                    </div>
-                                    <div class="description_text3 description_container">
-                                        <div class="description__header">
-                                            Не тріскає
-                                        </div>
-                                        <div class="description__text">
-                                            Используем антикоррозийный двухкомпонентный материал
-                                            и эпоксидные смолы для создания пластичности покрытия резервуара
-                                        </div>
-                                    </div>
-                                    <div class="description_text4 description_container">
-                                        <div class="description__header">
-                                            Не протікає
-                                        </div>
-                                        <div class="description__text">
-                                            Используем автоматическую сварку под флюсом швы выполнены ГОСТ 8173-79
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="description__text"></div>
-                            </div>
-                        </div>
-                    </div> <!-- /page 2 description-->
-
-                    <!--            ======== page 3 prices======-->
-                    <div class="prices container">
-                        <div class="prices_header">
-                            Цінові пропозиції
-                        </div>
-                        <div class="prices_itemContainer">
-
-                            <!-- ===prices item====-->
-                            <div class="prices_item">
-                                <div class="item_header">
-                                    Автономное газоснабжение частного дома
-                                </div>
-                                <div class="item_price">
-                                    от 1187 000 〒
-                                </div>
-                                <div class="item_image">
-                                    <img src="images/worcshop/prices_item__img1.png" alt="">
-                                </div>
-                                <div class="item_text">
-                                    <div class="item_text__wrap">
-                                        <div class="item_mark">
-                                            <img src="images/worcshop/marc.png" alt="">
-                                        </div>
-                                        <div class="item__text">Газгольдер</div>
-                                    </div>
-                                    <div class="item_text__wrap">
-                                        <div class="item_mark">
-                                            <img src="images/worcshop/marc.png" alt="">
-                                        </div>
-                                        <div class="item__text">Доставка</div>
-                                    </div>
-                                    <div class="item_text__wrap">
-                                        <div class="item_mark">
-                                            <img src="images/worcshop/marc.png" alt="">
-                                        </div>
-                                        <div class="item__text">Монтаж и пуск</div>
-                                    </div>
-                                </div>
-                                <div class="item_button">
-                                    <a href="">Замовити послугу</a>
-                                </div>
-                            </div><!-- /prices item-->
-                            <!-- ===prices item====-->
-                            <div class="prices_item">
-                                <div class="item_header">
-                                    Автономное газоснабжение частного дома
-                                </div>
-                                <div class="item_price">
-                                    от 1187 000 〒
-                                </div>
-                                <div class="item_image">
-                                    <img src="images/worcshop/prices_item__img2.png" alt="">
-                                </div>
-                                <div class="item_text">
-                                    <div class="item_text__wrap">
-                                        <div class="item_mark">
-                                            <img src="images/worcshop/marc.png" alt="">
-                                        </div>
-                                        <div class="item__text">Газгольдер</div>
-                                    </div>
-                                    <div class="item_text__wrap">
-                                        <div class="item_mark">
-                                            <img src="images/worcshop/marc.png" alt="">
-                                        </div>
-                                        <div class="item__text">Доставка</div>
-                                    </div>
-                                    <div class="item_text__wrap">
-                                        <div class="item_mark">
-                                            <img src="images/worcshop/marc.png" alt="">
-                                        </div>
-                                        <div class="item__text">Монтаж и пуск</div>
-                                    </div>
-                                </div>
-                                <div class="item_button">
-                                    <a href="">Замовити послугу</a>
-                                </div>
-                            </div><!-- /prices item-->
-                            <!-- ===prices item====-->
-                            <div class="prices_item">
-                                <div class="item_header">
-                                    Автономное газоснабжение частного дома
-                                </div>
-                                <div class="item_price">
-                                    от 1187 000 〒
-                                </div>
-                                <div class="item_image">
-                                    <img src="images/worcshop/prices_item__img3.png" alt="">
-                                </div>
-                                <div class="item_text">
-                                    <div class="item_text__wrap">
-                                        <div class="item_mark">
-                                            <img src="images/worcshop/marc.png" alt="">
-                                        </div>
-                                        <div class="item__text">Газгольдер</div>
-                                    </div>
-                                    <div class="item_text__wrap">
-                                        <div class="item_mark">
-                                            <img src="images/worcshop/marc.png" alt="">
-                                        </div>
-                                        <div class="item__text">Доставка</div>
-                                    </div>
-                                    <div class="item_text__wrap">
-                                        <div class="item_mark">
-                                            <img src="images/worcshop/marc.png" alt="">
-                                        </div>
-                                        <div class="item__text">Монтаж и пуск</div>
-                                    </div>
-                                </div>
-                                <div class="item_button">
-                                    <a href="">Замовити послугу</a>
-                                </div>
-                            </div><!-- /prices item-->
-                        </div> <!-- /prices container-->
-                    </div><!-- /page 3 prices-->
-
-                    <!--            ======== page 4 advantages======-->
-                    <div class="page4_background">
-                        <img src="images/worcshop/background2.png" alt="">
-                        <div class="page4_wrap">
-                            <div class="page4_header">Переваги</div>
+                        <!--            ======== page 2 directions======-->
+                        <div class="page2 mainPage">
+                            <div class="page2_header container">Наші напрямки</div>
                             <div class="container">
-                                <!--            ======== contentItem======-->
-                                <div class="page4_contentItem">
-                                    <div class="contentItem__symbol">
-                                        <img src="images/worcshop/pointer.png" alt="">
+                                <div class="directions_item">
+                                    <div class="directions_image">
+                                        <img src="images/worcshop/directions1.png" alt="">
                                     </div>
-                                    <div class="contentItem__textBox">
-                                        <div class="contentItem__textHeader">Оперативность</div>
-                                        <div class="contentItem__text">Результативность, действенность, эффективность Словарь русских синонимов. оперативность
-                                            см. эффективность.
-                                        </div>
+                                    <div class="directions_text">Газопостачання будинків</div>
+                                </div>
+                                <div class="directions_item">
+                                    <div class="directions_image">
+                                        <img src="images/worcshop/directions2.png" alt="">
                                     </div>
-                                </div><!-- /contentItem-->
-                                <!--            ======== contentItem======-->
-                                <div class="page4_contentItem">
-                                    <div class="contentItem__symbol">
-                                        <img src="images/worcshop/pointer.png" alt="">
+                                    <div class="directions_text">Газопостачання квартир</div>
+                                </div>
+                                <div class="directions_item">
+                                    <div class="directions_image">
+                                        <img src="images/worcshop/directions3.png" alt="">
                                     </div>
-                                    <div class="contentItem__textBox">
-                                        <div class="contentItem__textHeader">Контролль качества</div>
-                                        <div class="contentItem__text">Результативность, действенность, эффективность Словарь русских синонимов. оперативность
-                                            см. эффективность.
-                                        </div>
-                                    </div>
-                                </div><!-- /contentItem-->
-                                <!--            ======== contentItem======-->
-                                <div class="page4_contentItem">
-                                    <div class="contentItem__symbol">
-                                        <img src="images/worcshop/pointer.png" alt="">
-                                    </div>
-                                    <div class="contentItem__textBox">
-                                        <div class="contentItem__textHeader">Лучшие цены</div>
-                                        <div class="contentItem__text">Результативность, действенность, эффективность Словарь русских синонимов. оперативность
-                                            см. эффективность.
-                                        </div>
-                                    </div>
-                                </div><!-- /contentItem-->
-                                <!--            ======== contentItem======-->
-                                <div class="page4_contentItem">
-                                    <div class="contentItem__symbol">
-                                        <img src="images/worcshop/pointer.png" alt="">
-                                    </div>
-                                    <div class="contentItem__textBox">
-                                        <div class="contentItem__textHeader">Проверенное
-                                            оборудование
-                                        </div>
-                                        <div class="contentItem__text">Результативность, действенность, эффективность Словарь русских синонимов. оперативность
-                                            см. эффективность.
-                                        </div>
-                                    </div>
-                                </div><!-- /contentItem-->
-                                <!--            ======== contentItem======-->
-                                <div class="page4_contentItem">
-                                    <div class="contentItem__symbol">
-                                        <img src="images/worcshop/pointer.png" alt="">
-                                    </div>
-                                    <div class="contentItem__textBox">
-                                        <div class="contentItem__textHeader">Полный
-                                            комплекс услуг
-                                        </div>
-                                        <div class="contentItem__text">Результативность, действенность, эффективность Словарь русских синонимов. оперативность
-                                            см. эффективность.
-                                        </div>
-                                    </div>
-                                </div><!-- /contentItem-->
-                                <!--            ======== contentItem======-->
-                                <div class="page4_contentItem">
-                                    <div class="contentItem__symbol">
-                                        <img src="images/worcshop/pointer.png" alt="">
-                                    </div>
-                                    <div class="contentItem__textBox">
-                                        <div class="contentItem__textHeader">Опытные
-                                            профессионалы
-                                        </div>
-                                        <div class="contentItem__text">Результативность, действенность, эффективность Словарь русских синонимов. оперативность
-                                            см. эффективность.
-                                        </div>
-                                    </div>
-                                </div><!-- /contentItem-->
+                                    <div class="directions_text">Газопостачання промислове</div>
+                                </div>
                             </div>
-                        </div>
-                    </div> <!-- /page 4 advantages background-->
+                        </div><!-- /page 2 directions-->
 
-                    <!--            ======== page 5 application form======-->
-                    <div class="container">
-                        <div class="page5Block">
-                            <div class="page5_mainHeader">Пригласите эксперта на обсуждение ваших задач</div>
-                            <div class="page5_contentBox">
-                                <div class="leftContentSide">
-                                    <div class="contentHeader_main">Поможем оперативно рассчитать расходы по вашим задачам</div>
-                                    <div class="contentHeader_secondary">Что вы получите?</div>
-                                    <div class="page5_content">
-                                        <div class="contentItem">
-                                            <div class="contentIcon">
-                                                <img src="images/worcshop/page5icon1.png" alt="">
-                                            </div>
-                                            <div class="contentText">Звонок от эксперта в любое удобное время</div>
+                        <!--            ======== page 2 description======-->
+                        <div class="page2_wrap">
+                            <img src="images/worcshop/spotsBackground.png" alt="">
+                            <div class="page2_description container">
+                                <div class="descriptionHeader">
+                                    Ми пропонуємо котли власного виробництва з <span class="textAkcent">гарантією 30 років</span>
+                                </div>
+                                <div class="descriptionContent">
+                                    <div class="description__image">
+                                        <img src="images/worcshop/gazContainer.png" alt="">
+                                        <div class="imgPointer1 pointer"></div>
+                                        <div class="imgPointer2 pointer"></div>
+                                        <div class="imgPointer3 pointer"></div>
+                                        <div class="imgPointer4 pointer"></div>
+                                        <div class="imgVector1">
+                                            <img src="images/worcshop/Vector%205.png" alt="">
                                         </div>
-                                        <div class="contentItem">
-                                            <div class="contentIcon">
-                                                <img src="images/worcshop/page5icon2.png" alt="">
-                                            </div>
-                                            <div class="contentText">Предварительная оценка вашего проекта. Выезд при необходимости</div>
+                                        <div class="imgVector2">
+                                            <img src="images/worcshop/Vector%205.png" alt="">
                                         </div>
-                                        <div class="contentItem">
-                                            <div class="contentIcon">
-                                                <img src="images/worcshop/page5icon3.png" alt="">
-                                            </div>
-                                            <div class="contentText">Подробная консультация по проектированию системы газоснабжения</div>
+                                        <div class="imgVector3">
+                                            <img src="images/worcshop/Vector%205.png" alt="">
                                         </div>
-                                        <div class="contentItem">
-                                            <div class="contentIcon">
-                                                <img src="images/worcshop/page5icon4.png" alt="">
-                                            </div>
-                                            <div class="contentText">Дополнительные предложения, исходя из вашего объекта</div>
+                                        <div class="imgVector4">
+                                            <img src="images/worcshop/Vector%205.png" alt="">
                                         </div>
-                                        <div class="contentItem">
-                                            <div class="contentIcon">
-                                                <img src="images/worcshop/page5icon5.png" alt="">
+                                        <div class="bigPointer5 bigPointerB"></div>
+                                        <div class="bigPointer6 bigPointerB"></div>
+                                        <div class="bigPointer7 bigPointerB"></div>
+                                        <div class="bigPointer8 bigPointerB"></div>
+                                        <div class="bigPointer1 bigPointerW"></div>
+                                        <div class="bigPointer2 bigPointerW"></div>
+                                        <div class="bigPointer3 bigPointerW"></div>
+                                        <div class="bigPointer4 bigPointerW"></div>
+
+                                        <div class="description_text1 description_container">
+                                            <div class="description__header">
+                                                Грунтові води не страшні
                                             </div>
-                                            <div class="contentText">Полная смета понимание всех мельчайших нюансов</div>
+                                            <div class="description__text">
+                                                Для сохранения редуктора и других приборов от грунтовых вод делаем высокую трубу
+                                            </div>
+                                        </div>
+                                        <div class="description_text2 description_container">
+                                            <div class="description__header">
+                                                Не ржавіє
+                                            </div>
+                                            <div class="description__text">
+                                                Используем честные 6 мм толщины стали марки 09Г2С
+                                            </div>
+                                        </div>
+                                        <div class="description_text3 description_container">
+                                            <div class="description__header">
+                                                Не тріскає
+                                            </div>
+                                            <div class="description__text">
+                                                Используем антикоррозийный двухкомпонентный материал
+                                                и эпоксидные смолы для создания пластичности покрытия резервуара
+                                            </div>
+                                        </div>
+                                        <div class="description_text4 description_container">
+                                            <div class="description__header">
+                                                Не протікає
+                                            </div>
+                                            <div class="description__text">
+                                                Используем автоматическую сварку под флюсом швы выполнены ГОСТ 8173-79
+                                            </div>
                                         </div>
                                     </div>
-                                </div><!-- /leftContentSide -->
-                                <!--            ======== inputFormBox======-->
-                                <div class="inputFormBox">
-                                    <div class="inputFormBox__header">Оставьте заявку</div>
-                                    <div class="inputFormBox__inputForms">
-                                        <div class="inputForm">
-                                            <input type="text" name="name">
-                                            <div class="inputWindowName">name</div>
+                                    <div class="description__text"></div>
+                                </div>
+                            </div>
+                        </div> <!-- /page 2 description-->
+
+                        <!--            ======== page 3 prices======-->
+                        <div class="prices container">
+                            <div class="prices_header">
+                                Цінові пропозиції
+                            </div>
+                            <div class="prices_itemContainer">
+
+                                <!-- ===prices item====-->
+                                <div class="prices_item">
+                                    <div class="item_header">
+                                        Автономное газоснабжение частного дома
+                                    </div>
+                                    <div class="item_price">
+                                        от 1187 000 〒
+                                    </div>
+                                    <div class="item_image">
+                                        <img src="images/worcshop/prices_item__img1.png" alt="">
+                                    </div>
+                                    <div class="item_text">
+                                        <div class="item_text__wrap">
+                                            <div class="item_mark">
+                                                <img src="images/worcshop/marc.png" alt="">
+                                            </div>
+                                            <div class="item__text">Газгольдер</div>
                                         </div>
-                                        <div class="inputForm">
-                                            <input type="text" name="phone">
-                                            <div class="inputWindowName">phone</div>
+                                        <div class="item_text__wrap">
+                                            <div class="item_mark">
+                                                <img src="images/worcshop/marc.png" alt="">
+                                            </div>
+                                            <div class="item__text">Доставка</div>
                                         </div>
-                                        <div class="inputForm">
-                                            <input type="text" name="email">
-                                            <div class="inputWindowName">email</div>
-                                        </div>
-                                        <div class="inputForm">
-                                            <input type="text" name="city">
-                                            <div class="inputWindowName">city</div>
+                                        <div class="item_text__wrap">
+                                            <div class="item_mark">
+                                                <img src="images/worcshop/marc.png" alt="">
+                                            </div>
+                                            <div class="item__text">Монтаж и пуск</div>
                                         </div>
                                     </div>
-                                    <div class="inputAproveButtone">Отправить</div>
-                                </div><!-- /inputFormBox -->
-                            </div><!-- /page5_contentBox -->
-                        </div><!-- /page5Block-->
-                    </div> <!-- /container page 5 application form-->
-                </div>
+                                    <div class="item_button">
+                                        <a href="">Замовити послугу</a>
+                                    </div>
+                                </div><!-- /prices item-->
+                                <!-- ===prices item====-->
+                                <div class="prices_item">
+                                    <div class="item_header">
+                                        Автономное газоснабжение частного дома
+                                    </div>
+                                    <div class="item_price">
+                                        от 1187 000 〒
+                                    </div>
+                                    <div class="item_image">
+                                        <img src="images/worcshop/prices_item__img2.png" alt="">
+                                    </div>
+                                    <div class="item_text">
+                                        <div class="item_text__wrap">
+                                            <div class="item_mark">
+                                                <img src="images/worcshop/marc.png" alt="">
+                                            </div>
+                                            <div class="item__text">Газгольдер</div>
+                                        </div>
+                                        <div class="item_text__wrap">
+                                            <div class="item_mark">
+                                                <img src="images/worcshop/marc.png" alt="">
+                                            </div>
+                                            <div class="item__text">Доставка</div>
+                                        </div>
+                                        <div class="item_text__wrap">
+                                            <div class="item_mark">
+                                                <img src="images/worcshop/marc.png" alt="">
+                                            </div>
+                                            <div class="item__text">Монтаж и пуск</div>
+                                        </div>
+                                    </div>
+                                    <div class="item_button">
+                                        <a href="">Замовити послугу</a>
+                                    </div>
+                                </div><!-- /prices item-->
+                                <!-- ===prices item====-->
+                                <div class="prices_item">
+                                    <div class="item_header">
+                                        Автономное газоснабжение частного дома
+                                    </div>
+                                    <div class="item_price">
+                                        от 1187 000 〒
+                                    </div>
+                                    <div class="item_image">
+                                        <img src="images/worcshop/prices_item__img3.png" alt="">
+                                    </div>
+                                    <div class="item_text">
+                                        <div class="item_text__wrap">
+                                            <div class="item_mark">
+                                                <img src="images/worcshop/marc.png" alt="">
+                                            </div>
+                                            <div class="item__text">Газгольдер</div>
+                                        </div>
+                                        <div class="item_text__wrap">
+                                            <div class="item_mark">
+                                                <img src="images/worcshop/marc.png" alt="">
+                                            </div>
+                                            <div class="item__text">Доставка</div>
+                                        </div>
+                                        <div class="item_text__wrap">
+                                            <div class="item_mark">
+                                                <img src="images/worcshop/marc.png" alt="">
+                                            </div>
+                                            <div class="item__text">Монтаж и пуск</div>
+                                        </div>
+                                    </div>
+                                    <div class="item_button">
+                                        <a href="">Замовити послугу</a>
+                                    </div>
+                                </div><!-- /prices item-->
+                            </div> <!-- /prices container-->
+                        </div><!-- /page 3 prices-->
+
+                        <!--            ======== page 4 advantages======-->
+                        <div class="page4_background">
+                            <img src="images/worcshop/background2.png" alt="">
+                            <div class="page4_wrap">
+                                <div class="page4_header">Переваги</div>
+                                <div class="container">
+                                    <!--            ======== contentItem======-->
+                                    <div class="page4_contentItem">
+                                        <div class="contentItem__symbol">
+                                            <img src="images/worcshop/pointer.png" alt="">
+                                        </div>
+                                        <div class="contentItem__textBox">
+                                            <div class="contentItem__textHeader">Оперативность</div>
+                                            <div class="contentItem__text">Результативность, действенность, эффективность Словарь русских синонимов.
+                                                оперативность
+                                                см. эффективность.
+                                            </div>
+                                        </div>
+                                    </div><!-- /contentItem-->
+                                    <!--            ======== contentItem======-->
+                                    <div class="page4_contentItem">
+                                        <div class="contentItem__symbol">
+                                            <img src="images/worcshop/pointer.png" alt="">
+                                        </div>
+                                        <div class="contentItem__textBox">
+                                            <div class="contentItem__textHeader">Контролль качества</div>
+                                            <div class="contentItem__text">Результативность, действенность, эффективность Словарь русских синонимов.
+                                                оперативность
+                                                см. эффективность.
+                                            </div>
+                                        </div>
+                                    </div><!-- /contentItem-->
+                                    <!--            ======== contentItem======-->
+                                    <div class="page4_contentItem">
+                                        <div class="contentItem__symbol">
+                                            <img src="images/worcshop/pointer.png" alt="">
+                                        </div>
+                                        <div class="contentItem__textBox">
+                                            <div class="contentItem__textHeader">Лучшие цены</div>
+                                            <div class="contentItem__text">Результативность, действенность, эффективность Словарь русских синонимов.
+                                                оперативность
+                                                см. эффективность.
+                                            </div>
+                                        </div>
+                                    </div><!-- /contentItem-->
+                                    <!--            ======== contentItem======-->
+                                    <div class="page4_contentItem">
+                                        <div class="contentItem__symbol">
+                                            <img src="images/worcshop/pointer.png" alt="">
+                                        </div>
+                                        <div class="contentItem__textBox">
+                                            <div class="contentItem__textHeader">Проверенное
+                                                оборудование
+                                            </div>
+                                            <div class="contentItem__text">Результативность, действенность, эффективность Словарь русских синонимов.
+                                                оперативность
+                                                см. эффективность.
+                                            </div>
+                                        </div>
+                                    </div><!-- /contentItem-->
+                                    <!--            ======== contentItem======-->
+                                    <div class="page4_contentItem">
+                                        <div class="contentItem__symbol">
+                                            <img src="images/worcshop/pointer.png" alt="">
+                                        </div>
+                                        <div class="contentItem__textBox">
+                                            <div class="contentItem__textHeader">Полный
+                                                комплекс услуг
+                                            </div>
+                                            <div class="contentItem__text">Результативность, действенность, эффективность Словарь русских синонимов.
+                                                оперативность
+                                                см. эффективность.
+                                            </div>
+                                        </div>
+                                    </div><!-- /contentItem-->
+                                    <!--            ======== contentItem======-->
+                                    <div class="page4_contentItem">
+                                        <div class="contentItem__symbol">
+                                            <img src="images/worcshop/pointer.png" alt="">
+                                        </div>
+                                        <div class="contentItem__textBox">
+                                            <div class="contentItem__textHeader">Опытные
+                                                профессионалы
+                                            </div>
+                                            <div class="contentItem__text">Результативность, действенность, эффективность Словарь русских синонимов.
+                                                оперативность
+                                                см. эффективность.
+                                            </div>
+                                        </div>
+                                    </div><!-- /contentItem-->
+                                </div>
+                            </div>
+                        </div> <!-- /page 4 advantages background-->
+
+                        <!--            ======== page 5 application form======-->
+                        <div class="container">
+                            <div class="page5Block">
+                                <div class="page5_mainHeader">Пригласите эксперта на обсуждение ваших задач</div>
+                                <div class="page5_contentBox">
+                                    <div class="leftContentSide">
+                                        <div class="contentHeader_main">Поможем оперативно рассчитать расходы по вашим задачам</div>
+                                        <div class="contentHeader_secondary">Что вы получите?</div>
+                                        <div class="page5_content">
+                                            <div class="contentItem">
+                                                <div class="contentIcon">
+                                                    <img src="images/worcshop/page5icon1.png" alt="">
+                                                </div>
+                                                <div class="contentText">Звонок от эксперта в любое удобное время</div>
+                                            </div>
+                                            <div class="contentItem">
+                                                <div class="contentIcon">
+                                                    <img src="images/worcshop/page5icon2.png" alt="">
+                                                </div>
+                                                <div class="contentText">Предварительная оценка вашего проекта. Выезд при необходимости</div>
+                                            </div>
+                                            <div class="contentItem">
+                                                <div class="contentIcon">
+                                                    <img src="images/worcshop/page5icon3.png" alt="">
+                                                </div>
+                                                <div class="contentText">Подробная консультация по проектированию системы газоснабжения</div>
+                                            </div>
+                                            <div class="contentItem">
+                                                <div class="contentIcon">
+                                                    <img src="images/worcshop/page5icon4.png" alt="">
+                                                </div>
+                                                <div class="contentText">Дополнительные предложения, исходя из вашего объекта</div>
+                                            </div>
+                                            <div class="contentItem">
+                                                <div class="contentIcon">
+                                                    <img src="images/worcshop/page5icon5.png" alt="">
+                                                </div>
+                                                <div class="contentText">Полная смета понимание всех мельчайших нюансов</div>
+                                            </div>
+                                        </div>
+                                    </div><!-- /leftContentSide -->
+                                    <!--            ======== inputFormBox======-->
+                                    <div class="inputFormBox">
+                                        <div class="inputFormBox__header">Оставьте заявку</div>
+                                        <form class="inputFormBox__inputForms" autocomplete="on" action="https://www.google.com/search">
+                                            <div class="inputForm">
+                                                <input type="text" placeholder="Name" name="q">
+                                                <div class="inputWindowName">name</div>
+                                            </div>
+                                            <div class="inputForm">
+                                                <input type="number" name="phone" placeholder="Phone">
+                                                <div class="inputWindowName">phone</div>
+                                            </div>
+                                            <div class="inputForm">
+                                                <input type="email" name="email" placeholder="email">
+                                                <div class="inputWindowName">email</div>
+                                            </div>
+                                            <div class="inputForm">
+                                                <input type="text" name="city" placeholder="City">
+                                                <div class="inputWindowName">city</div>
+                                            </div>
+                                            <button class="inputAproveButtone">Отправить</button>
+                                        </form>
+                                    </div><!-- /inputFormBox -->
+                                </div><!-- /page5_contentBox -->
+                            </div><!-- /page5Block-->
+                        </div> <!-- /container page 5 application form-->
+                    </div>
+                </main>
+
+                <!--            ======== footer======-->
+                <footer id="footer">
+                    <div class="header">
+                        <div class="callNum">
+                            <div class="callNumText">Вам передзвонити?</div>
+                            <div class="callNumNum">+380989664567</div>
+                        </div>
+                        <div class="logo">
+                            <img src="images/worcshop/logo.png" alt="logo">
+                        </div>
+                        <div class="workHours">
+                            <div class="workHoursText">Графік роботи</div>
+                            <div class="workHoursSchedule">Пн-Пт 09:00-18:00</div>
+                        </div>
+                    </div>
+                </footer>
+
             </div><!-- /mainPage-->
         </div> <!-- /mainWrap-->
 
