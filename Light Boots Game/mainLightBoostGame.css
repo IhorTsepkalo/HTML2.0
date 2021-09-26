@@ -1,0 +1,301 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0;
+    min-height: fit-content;
+@import url('https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap');
+    font-family: Montserrat;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0
+}
+
+#mainWrapper {
+    max-width: 1280px;
+    margin: 5px auto;
+}
+
+.container {
+    max-width: 1160px;
+    flex-wrap: wrap;
+    padding: 0 10px;
+}
+
+/*header*/
+
+#header {
+    width: 1280px;
+    height: 112px;
+    background-color: #F4B02B;
+}
+
+/*nav Menu*/
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    height: 48px;
+}
+
+.nav_logo {
+    display: flex;
+    margin-left: 0;
+}
+
+.nav_menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.nav_login {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0;
+}
+
+.nav__picture {
+    margin: 26px 15px 0 0;
+    width: 39px;
+    height: 28px;
+    position: relative;
+}
+
+.nav__picture__top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 3.23px 2.27px 1.4px 3.23px;
+}
+
+.nav__text {
+    margin: 20px 120px 0 0;
+    text-transform: uppercase;
+    font-family: "Curlz MT";
+    font-weight: bold;
+    font-size: 26px;
+    color: white;
+
+}
+
+.nav_item {
+    display: flex;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    color: black;
+    margin: 28px 47px 0 0;
+}
+
+.nav__login {
+    color: white;
+}
+
+.nav__register {
+    margin-right: 0;
+}
+
+.nav_bottom {
+    height: 64px;
+    width: 100%;
+}
+
+/*page 1*/
+
+.page1 {
+    width: 100%;
+    height: fit-content;
+    position: relative;
+    overflow: hidden;
+}
+
+.background {
+    width: 100%;
+    height: fit-content;
+    background-color: #E5E5E5;
+    opacity: 10%;
+    z-index: -1;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.page1_wrap {
+    width: 100%;
+    display: flex;
+}
+
+.page1_headerBox {
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 50%;
+    min-width: 400px;
+    height: 592px;
+}
+
+.page1__mainHeader {
+    width: 100%;
+    height: fit-content;
+    margin: 93px 0 0 0;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1.1;
+    color: #1F271B;
+}
+
+.page1__subHeader {
+    margin: 23px 0 5px 0;
+    width: 60%;
+    height: fit-content;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #1F271B;
+}
+
+.buy_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 144px;
+    height: 48px;
+    margin: 34px 0 0 0;
+    border-radius: 3px;
+    border: 2px solid #F4B02B;
+    background-color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #1F271B;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+.page1_headerBox a {
+    text-decoration: none;
+}
+
+.page1_rightSide {
+    width: 50%;
+    height: 592px;
+    position: relative;
+}
+
+.page1_fightersBox {
+    display: flex;
+}
+
+.fighterBox__main {
+    width: 569px;
+    height: 740px;
+}
+
+.fighterBox__secondary {
+    z-index: -5;
+}
+
+.hero2 {
+    position: absolute;
+    top: 131px;
+    left: -220px;
+    margin-right: 210px;
+}
+
+.hero3 {
+    position: absolute;
+    top: 184px;
+    left: 306px;
+    margin-right: 210px;
+}
+
+.rollButtons {
+    display: flex;
+    position: absolute;
+    z-index: 5;
+    top: 526px;
+    left: 250px;
+}
+
+.rollButton {
+    border-color: #F4B02B;
+    width: 66px;
+    height: 66px;
+    background-color: #F4B02B;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.rollButton__left {
+    border-radius: 3px 0 0 0;
+}
+
+.rollButton__right {
+    border-radius: 0 3px 0 0;
+}
+
+footer {
+    text-align: center;
+}
+
+
+@media (max-width: 990px) {
+
+    .page1 {
+        flex-wrap: wrap;
+    }
+
+    .page1_headerBox {
+        height: fit-content;
+    }
+
+    .page1_rightSide {
+        height: fit-content;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .page1__mainHeader {
+        font-size: 40px;
+    }
+
+    .page1__subHeader {
+        font-size: 20px;
+    }
+
+    .page1_rightSide {
+    display: flex;
+        justify-content: start;
+        margin: 0;
+    }
+
+    .page1_fightersBox {
+        height: fit-content;
+        display: flex;
+        justify-content: start;
+    }
+
+    .fighterBox__main {
+        height: fit-content;
+        display: flex;
+        justify-content: start;
+    }
+
+    .fighterBox__main img {
+        width: 400px;
+        height: 500px;
+    }
+
+    .fighterBox__secondary {
+        display: none;
+    }
+
+}
